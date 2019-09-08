@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:sysml="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:version="2.1" xsi:schemaLocation="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0 sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw">
+  <uml:Model xmi:id="_WiWHMDQBEeegr7mwXb5Jtw" name="project1">
+    <eAnnotations xmi:id="_WiWHMTQBEeegr7mwXb5Jtw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_WiWHMjQBEeegr7mwXb5Jtw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_WiWHMzQBEeegr7mwXb5Jtw" value="3.0.0"></defaultValue>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" name="Hemodialysis System">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw200tw" name="AV Fistula" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw500tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw100tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw201tw" name="Arterial Pressure Meter" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw501tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw101tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw202tw" name="Blood Pump" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw102tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw203tw" name="Anticoagulant Feed" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw503tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw103tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw204tw" name="Arterial Air Detector" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw504tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw104tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw205tw" name="Dialyzer" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw505tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw105tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw206tw" name="Dialysate Pump" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw506tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw106tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw207tw" name="Dialysate Tank" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw507tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw107tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw208tw" name="Dump Tank" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw508tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw108tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw209tw" name="Controls" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw509tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw109tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw210tw" name="Venous Pressure Meter" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw510tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw110tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw211tw" name="Venous Air Detector" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw511tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw111tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw212tw" name="Additional Feed" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw512tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw112tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw100tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw200tw _WiWHNzQBEeegr7mwXb5Jtw300tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw300tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw100tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw400tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw500tw" name="AV Fistula"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw101tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw201tw _WiWHNzQBEeegr7mwXb5Jtw301tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw301tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw101tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw401tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw501tw" name="Arterial Pressure Meter"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw102tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw202tw _WiWHNzQBEeegr7mwXb5Jtw302tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw302tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw102tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw402tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw502tw" name="Blood Pump">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw800tw" name="Tube" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1000tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw600tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw801tw" name="Casing" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1001tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw601tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw802tw" name="Rollers" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1002tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw602tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw803tw" name="Motor" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1003tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw603tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw804tw" name="Transmission" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1004tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw604tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw600tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw800tw _WiWHNzQBEeegr7mwXb5Jtw700tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw700tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" association="_WiWHNjQBEeegr7mwXb5Jtw600tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw900tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1000tw" name="Tube"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw601tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw801tw _WiWHNzQBEeegr7mwXb5Jtw701tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw701tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" association="_WiWHNjQBEeegr7mwXb5Jtw601tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw901tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1001tw" name="Casing"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw602tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw802tw _WiWHNzQBEeegr7mwXb5Jtw702tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw702tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" association="_WiWHNjQBEeegr7mwXb5Jtw602tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw902tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1002tw" name="Rollers"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw603tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw803tw _WiWHNzQBEeegr7mwXb5Jtw703tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw703tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" association="_WiWHNjQBEeegr7mwXb5Jtw603tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw903tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1003tw" name="Motor"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw604tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw804tw _WiWHNzQBEeegr7mwXb5Jtw704tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw704tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw502tw" association="_WiWHNjQBEeegr7mwXb5Jtw604tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw904tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1004tw" name="Transmission"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw103tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw203tw _WiWHNzQBEeegr7mwXb5Jtw303tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw303tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw103tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw403tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw503tw" name="Anticoagulant Feed"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw104tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw204tw _WiWHNzQBEeegr7mwXb5Jtw304tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw304tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw104tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw404tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw504tw" name="Arterial Air Detector"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw105tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw205tw _WiWHNzQBEeegr7mwXb5Jtw305tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw305tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw105tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw405tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw505tw" name="Dialyzer">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw805tw" name="Fiber Bundle" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1005tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw605tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw806tw" name="Blood Caps" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1006tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw606tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw807tw" name="Dialysate Caps" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1007tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw607tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw808tw" name="Cylinder" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1008tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw608tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw605tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw805tw _WiWHNzQBEeegr7mwXb5Jtw705tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw705tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw505tw" association="_WiWHNjQBEeegr7mwXb5Jtw605tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw905tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1005tw" name="Fiber Bundle"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw606tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw806tw _WiWHNzQBEeegr7mwXb5Jtw706tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw706tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw505tw" association="_WiWHNjQBEeegr7mwXb5Jtw606tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw906tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1006tw" name="Blood Caps"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw607tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw807tw _WiWHNzQBEeegr7mwXb5Jtw707tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw707tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw505tw" association="_WiWHNjQBEeegr7mwXb5Jtw607tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw907tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1007tw" name="Dialysate Caps"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw608tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw808tw _WiWHNzQBEeegr7mwXb5Jtw708tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw708tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw505tw" association="_WiWHNjQBEeegr7mwXb5Jtw608tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw908tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1008tw" name="Cylinder"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw106tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw206tw _WiWHNzQBEeegr7mwXb5Jtw306tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw306tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw106tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw406tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw506tw" name="Dialysate Pump"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw107tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw207tw _WiWHNzQBEeegr7mwXb5Jtw307tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw307tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw107tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw407tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw507tw" name="Dialysate Tank"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw108tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw208tw _WiWHNzQBEeegr7mwXb5Jtw308tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw308tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw108tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw408tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw508tw" name="Dump Tank"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw109tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw209tw _WiWHNzQBEeegr7mwXb5Jtw309tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw309tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw109tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw409tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw509tw" name="Controls"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw110tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw210tw _WiWHNzQBEeegr7mwXb5Jtw310tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw310tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw110tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw410tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw510tw" name="Venous Pressure Meter"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw111tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw211tw _WiWHNzQBEeegr7mwXb5Jtw311tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw311tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw111tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw411tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw511tw" name="Venous Air Detector">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw809tw" name="Air Trap Cylinder" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1009tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw609tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw810tw" name="Air Sensor" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1010tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw610tw"></ownedAttribute>
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw811tw" name="Mechanic Block" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1011tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw611tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw609tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw809tw _WiWHNzQBEeegr7mwXb5Jtw709tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw709tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw511tw" association="_WiWHNjQBEeegr7mwXb5Jtw609tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw909tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1009tw" name="Air Trap Cylinder"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw610tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw810tw _WiWHNzQBEeegr7mwXb5Jtw710tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw710tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw511tw" association="_WiWHNjQBEeegr7mwXb5Jtw610tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw910tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1010tw" name="Air Sensor"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw611tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw811tw _WiWHNzQBEeegr7mwXb5Jtw711tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw711tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw511tw" association="_WiWHNjQBEeegr7mwXb5Jtw611tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw911tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw1011tw" name="Mechanic Block"></packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw112tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw212tw _WiWHNzQBEeegr7mwXb5Jtw312tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw312tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw1Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw112tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw412tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw512tw" name="Additional Feed"></packagedElement>
+  
+    <profileApplication xmi:id="_Wkli4DQBEeegr7mwXb5Jtw" name="test">
+      <eAnnotations xmi:id="_WknYEDQBEeegr7mwXb5Jtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw"></references>
+      </eAnnotations>
+      <appliedProfile href="sysml.profile.xmi#_WjFHADQBEeegr7mwXb5Jtw"></appliedProfile>
+    </profileApplication>
+  </uml:Model>
+  <sysml:Block xmi:id="_WkrCcDQBEeegr7mwXb5Jtw" base_Class="_WiWHNDQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCcTQBEeegr7mwXb5Jtw" base_Class="_WiWHOTQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCcjQBEeegr7mwXb5Jtw" base_Class="_WiWHRjQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCczQBEeegr7mwXb5Jtw" base_Class="_WiWHSTQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrpgDQBEeegr7mwXb5Jtw" base_Class="_WiWHSzQBEeegr7mwXb5Jtw"></sysml:Block>
+</xmi:XMI>
