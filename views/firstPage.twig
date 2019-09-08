@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+            <script type="text/javascript">
+            </script>
+
+            <title>
+                {% block title %}
+                    First Page
+                {% endblock %}
+            </title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content" >
+            {% block content %}
+                <!-- <div class="ui container">
+                     <div class="ui basic segment">                  
+                       <div class="ui center aligned tertiary inverted segment">
+                           <h1 style="color:whitesmoke"> Upload, Create or Save SysML Models </h1>
+                       </div>
+                       
+                       <div classs="ui one column stackable center aligned page grid">
+                       <div class="column twelve wide">
+                       <p></p>
+                       <div class="ui top attached red compact segment">
+                       <div class=" fluid huge yellow ui basic button" id= 'upload' style="color:#0085A1;">
+                           <a href="upload.php"> Upload Legacy Model</a>
+                       </div>
+                       </div>
+                       <p></p>
+                       
+                       <p></p>
+                       <div class="ui attached yellow compact segment">
+                       <div class="fluid huge olive ui basic button" id= 'upload'>
+                           <a href="myUpload.php"> Upload Current Model</a>
+                       </div>
+                       </div>
+                       <p></p>
+               
+                       <p></p>
+                       <div class="ui attached olive compact segment">
+                       <div class="fluid huge teal ui basic button" id="create">
+                           <a href="create.php">  Create New Model </a>
+                       </div>
+                       </div>
+                       <p></p>
+               
+                       <p></p>
+                       <div class="ui bottom attached teal compact segment">
+                       <div class="fluid huge red ui basic button" id="search">
+                           <a href="search.php">Search Database </a>
+                       </div>
+                       </div>
+                       <p></p>
+                       </div>
+                       </div>
+                      </div>
+                 </div>-->
+                <div class="page-header">
+                    <h1 class='text-center'> Modeling for Risk Management </h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/legacy.png" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Legacy Database</h3>
+                                <p> View the relevant models that are already verified by the risk management team. 
+                                    Download the model files from the database. 
+                                    Get the information of the model files.
+                                    Upload verified model files to the database. </p>
+                                <p> <a href="upload.php" class="btn btn-success" role="button">Visit</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/OF71Y70.jpg" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Current Database</h3>
+                                <p> Find the model files that aren't yet verified. The model files uploaded recently. 
+                                    Upload a new model file to the database</p>
+                                <p><a href="myUpload.php" class="btn btn-success" role="button">Visit</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/59535-OA827H-246.jpg" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Create XMI</h3>
+                                <p>Create a new model file. Create the device, assembly and component classes, view their connections and
+                                    associations and generate a new xmi file. Import and run the file in modelio to view the models</p>
+                                <p><a href="create.php" class="btn btn-success" role="button">Visit</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/OJXL4S0.jpg" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Search Database</h3>
+                                <p>Search the GMDN and UMLS Databases to find the appropriate class names.</p>
+                                <p> <a href="search.php" class="btn btn-success" role="button">Visit</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/gmdn.png" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Add GMDN/UMLS data or UIDs</h3>
+                                <p> Add GMDN or UMLS class information for each component of your model or unique Ids for all the components</p>
+                                <p> <a href="uploadXMIforGMDN.php" class="btn btn-success" role="button">Visit</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-2">
+                        <div class="thumbnail">
+                            <img src="./Icons/risk_measurement.png" alt="Generic placeholder thumbnail">
+                            <div class="caption">
+                                <h3>Do risk analysis for your model</h3>
+                                <p> Check predictive risk of your new model components using a legacy model</p>
+                                <p> <a href="riskanalysis.php" class="btn btn-success" role="button">Visit</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endblock %}       
+        </div>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>jQuery Easy Tree Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/easyTree.css">
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="src/easyTree.js"></script>
+        <style>
+            body {
+                background: #FFFFF7;
+
+            }
+            .jumbotron{
+                background-color:#ECF0F1;
+
+            }
+
+        </style>
+        <script>
+            $('#upload-submit').click(function () {
+                        $('#upload-form').submit();
+                       
+            });
+        </script>
+    </head>
+    <body>
+        <div class="page-header text-center">
+            <font color="#E74C3C"> <h2> Generate Model Files </h2> </font>
+        </div> 
+        <div class="container-fluid">
+                    <nav class="nav navbar">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="index.php">HomePage</a>
+                            </div>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="viewTree.php">View Tree</a></li>
+                                <li><a href="myUpload.php">Current Database</a></li>
+                                <li><a href="upload.php">Legacy Database</a></li>
+                                <li><a href="search.php">Search</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>  
+
+        <!-- ---------------- FILE UPLOAD ----------------------------------- --> 
+        <p></p>
+        <section id="form">
+            <div class="container" style="margin-top: 50px">
+                <div class="jumbotron"> 
+                    <font color="#16A085">  <h2 class="text-center"> Create XMI from existing XML file </h2></font>
+                    <form action="reverseModel.php" method="post" enctype="multipart/form-data" id="upload-form">
+                        <div class="row">
+                            <div class=" form-line">
+
+                                <div class="form-group">
+                                    <font color="#E74C3C"> <label> 
+                                        Select a file to upload
+                                    </label></font>
+
+                                    <input type="file" class="form-control" name="model_file" id="model_file" required = "required">
+                                </div>
+
+                                <div class="form-group">
+                                    <font color="#E74C3C"> <label> Filename for the output XMI file </label></font>
+                                    <input type="text" class="form-control" name="opfilename">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <input class="btn btn-success" type="submit" value="Upload File" name="uploadFile" id="upload-submit"/>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>          
+        <!--- ------------------------- END OF FILE UPLOAD FORM ------------------- -->
+
+        <!-- --------------------------------- MODAL 3 -------------------------- -->
+        <div class="modal fade" id="successMessage" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header" style="padding:35px 50px;">
+                        <font color="#E74C3C">  <h3><span class="glyphicon glyphicon-ok-sign "></span> Your files have been created successfully! </h3> </font>      
+                    </div>
+                    <div class="modal-body" style="padding:40px 50px;">
+                        <p> View your files in your project folder </p>          
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- -------------------- END OF MODAL 3 ----------------------- -->
+ </body>
+</html>

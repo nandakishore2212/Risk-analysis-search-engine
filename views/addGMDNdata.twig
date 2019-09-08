@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+
+            <meta charset="UTF-8">
+           
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+            <link rel="stylesheet" href="css/easyTree.css">
+            <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+            <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+            <script src="src/easyTree.js"></script>
+            <style>
+                body, html, .container-fluid {
+                    height: 100%;
+                }
+                .jumbotron{
+                    background-color:#ECF0F1;
+                }
+            </style>
+           
+
+
+<!--
+            <script type="text/javascript">
+                $(function () {
+
+                    $("#search_button").click(function () {
+                        // getting the value that user typed
+                        var searchString = $("#search_box").val();
+                        // forming the queryString
+                        var data = 'search=' + searchString;
+
+                        // if searchString is not empty
+                        if (searchString) {
+                            // ajax call
+                            $.ajax({
+                                type: "POST",
+                                url: "searchGMDN.php",
+                                data: data,
+                                beforeSend: function (html) { // this happens before actual call
+                                    $("#results").html('');
+                                    $("#searchresults").show();
+                                    $(".word").html(searchString);
+                                },
+                                success: function (html) { // this happens after we get results
+                                    $("#results").show();
+                                    $("#results").append(html);
+                                }
+                            });
+                        }
+                        return false;
+                    });
+                });
+
+
+                $(document).ready(function () {
+                    $('#search').keyup(function () {
+                        var searchText = $(this).val().toLowerCase();
+                        $('#gmdn tbody tr').each(function () {
+                            if ($(this).text().toLowerCase().indexOf(searchText) >= 0) {
+                                $(this).show();
+                            } else {
+                                $(this).hide();
+                            }
+                        });
+                    });
+                });
+                
+                
+   -->
+       
+        <script type="text/javascript">    
+         
+    // script for building tree         
+    
+    $(document).ready(function() {
+        var rawHtml;
+        $.ajax({
+            url: 'tree.php',
+            type: 'GET',
+            data: $('tree.php').html(),
+            //data: $xmlfile,
+            async: true,
+            success: function (data) {
+                //alert(data);
+                rawHtml = data;
+               // modal2(filename);
+            },
+            error: function () {
+                alert('failed to send ajax request');
+            };
+        });
+         
+	$("#draw").click(function () {
+	//Placing xml data to the div
+        rawHtml = rawHtml.replace(/<id>[\s\S]*?<\/id>/g, '');
+                console.log(rawHtml);
+                $("#esyTreeOnLoad").html(rawHtml);
+                // alert(rawHtml);
+
+                //Loading EasyTree On Load..
+                $('#esyTreeOnLoad').EasyTree({
+                    selectable: true,
+                    deletable: true,
+                    editable: true,
+                    addable: true,
+                    addable_assembly: true,
+                    addable_component: true,
+                    i18n: {
+                        confirmButtonLabel: 'Okay',
+                        cancelButtonLabel: 'cancel',
+                        deleteConfirmation: 'Delete this node?',
+                    }
+                });
+            });
+        });
+                
+            </script>
+    
+            <title>{% block title %} Add GMDN data{% endblock %} </title>
+        {% endblock %}
+    </head>
+
+
+    <body>
+        
+     
+        <div class="page-header">
+            <h1 class='text-center'> Add GMDN data - Step 2 </h1>
+        </div>
+
+
+        <!-- <div class="row style="height:100%; display: block;">-->
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lavender;">
+                Tree
+                <div class="easy-tree" id="esyTreeOnLoad">
+
+                </div>
+                <button class="btn btn-success" id="draw"> Draw Tree </button>
+            </div>
+            
+            <div class="col-sm-8" style="background-color:lavenderblush;">
+                <div class="container">
+                    <div class="jumbotron">
+
+                        <font color="#16A085">  <h2 class="text-center"> Search for GMDN term </h2></font>
+
+                        <div class="container">
+                            <a href="#" data-toggle="tooltip" title="In Vitro Diagnostic medical devices (IVDs) are those which "> 
+                                <h3>Select IVD or Non-IVD </h3> </a>
+
+
+                            <form method="GET" action="searchGMDN.php">
+                                <input type="text" name="component" />
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio" value = "IVD">IVD
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="optradio" value = "Non-IVD"> Non-IVD
+                                </label>
+                                <label> Search Term:  </label> <br>
+                                <input type="text" name="query" />
+                                <input type="submit" value="Search" />
+                                
+                            </form>
+                        </div>
+
+                     <!--   
+                        <form action="searchGMDN.php" method="GET">
+                            <label> Search Term:  </label> <br>
+                            <input type="text" name="query" />
+                            <input type="submit" value="Search" />
+                        </form>
+                     -->
+
+
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="container" style="margin-top: 50px">
+                    <div class="jumbotron"> 
+                        <font color="#16A085">  <h2 class="text-left"> Properties </h2></font>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>

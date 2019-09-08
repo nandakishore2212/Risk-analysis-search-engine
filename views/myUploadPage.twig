@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+
+            <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+            <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+            <script>
+                $(document).ready(function () {
+                    $('#upload-submit').click(function () {
+                        $('#upload-form').submit();
+                    });
+                })
+            </script>
+            <title>{% block title %}{% endblock %} - My Webpage</title>
+        {% endblock %}
+    </head>
+    <body>
+        <div id="content">
+            {% block content %}
+                <div class="page-header text-center">
+                    <h2> Upload Model Files </h2> 
+                </div> 
+                <div class="container-fluid">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="index.php">HomePage</a>
+                            </div>
+
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="viewCurrentFiles.php">View Uploaded Files</a></li>
+                                <li><a href="create.php">Create XMI</a></li>
+                                <li><a href="upload.php">Legacy Database</a></li>
+                                <li><a href="myUpload.php">Search</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>  
+
+
+                <section id="form">
+                    <div class="container">
+
+                        <form action="" method="post" enctype="multipart/form-data" id="upload-form">
+                            <div class="row">
+                                <div class=" form-line">
+
+                                    <div class="form-group">
+                                        <label> 
+                                            Select file to upload
+                                        </label>
+
+                                        <input type="file" class="form-control" name="model_file" id="model_file" required = "required">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label> Filetype </label>
+                                        <input type="text" class="form-control" name="filetype">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label> Uploader name </label>
+                                        <input type="text" class="form-control" name="user">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="form-group">
+                                    <label> Description </label>
+                                    <textarea rows="10" class="form-control" column="30" name="description"></textarea>
+                                </div>
+
+                                <!--   <button type="button" class="btn btn-success submit"><span class="glyphicon glyphicon-upload" ></span>    Upload</button> -->
+                                <!--<button class="positive ui button" id="upload-submit" name="uploadFile" type="submit"> Upload File </button> -->
+
+
+                                <input class="btn btn-success" type="submit" value="Upload File" name="uploadFile"/>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </section>          
+            {% endblock %}
+        </div>
+
+    </body>
+</html>
