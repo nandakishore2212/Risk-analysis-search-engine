@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<ul>
+
+<li>
+    <id> device </id>
+    <device>Hemodialysis System</device>
+    <ul>
+        <li>
+            <id> assembly </id>
+            <classa>AV Fistula</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Arterial Pressure Meter</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Blood Pump</classa>
+            <ul>
+                <li>
+                    <id>component</id>
+                    <component>Tube</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Casing</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Rollers</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Motor</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Transmission</component>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Anticoagulant Feed</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Arterial Air Detector</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Dialyzer</classa>
+            <ul>
+                <li>
+                    <id>component</id>
+                    <component>Fiber Bundle</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Blood Caps</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Dialysate Caps</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Cylinder</component>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Dialysate Pump</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Dialysate Tank</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Dump Tank</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Controls</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Venous Pressure Meter</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Venous Air Detector</classa>
+            <ul>
+                <li>
+                    <id>component</id>
+                    <component>Air Trap Cylinder</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Air Sensor</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Mechanic Block</component>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Additional Feed</classa>
+        </li>
+    </ul>
+</li>
+</ul>
