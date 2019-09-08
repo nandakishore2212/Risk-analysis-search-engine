@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ul>
+
+<li>
+    <id> device </id>
+    <device>Blood</device>
+    <ul>
+        <li>
+            <id> assembly </id>
+            <classa>Blood cell</classa>
+        </li>
+        <li>
+            <id> assembly </id>
+            <classa>Blood Plasma</classa>
+            <ul>
+                <li>
+                    <id>component</id>
+                    <component>Water</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Clotting Factors</component>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
