@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:sysml="http:///schemas/sysml/_U0a7cGe3EeewAMxhj9yanQ/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/sysml/_U0a7cGe3EeewAMxhj9yanQ/0 sysml.profile.xmi#_U0ksd2e3EeewAMxhj9yanQ">
+  <uml:Model xmi:id="_UzixsGe3EeewAMxhj9yanQ" name="project35">
+    <eAnnotations xmi:id="_UzixsWe3EeewAMxhj9yanQ" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_Uzixsme3EeewAMxhj9yanQ" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_Uzixs2e3EeewAMxhj9yanQ" value="3.0.0"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzixtGe3EeewAMxhj9yanQ" name="System">
+      <ownedAttribute xmi:id="_UzixtWe3EeewAMxhj9yanQ" name="assembly1" visibility="public" type="_UzixvWe3EeewAMxhj9yanQ" aggregation="composite" association="_Uzixt2e3EeewAMxhj9yanQ"/>
+      <ownedAttribute xmi:id="_Uzixtme3EeewAMxhj9yanQ" name="assembly2" visibility="public" type="_Uzixwme3EeewAMxhj9yanQ" aggregation="composite" association="_Uzixume3EeewAMxhj9yanQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Uzixt2e3EeewAMxhj9yanQ" memberEnd="_UzixtWe3EeewAMxhj9yanQ _UzixuGe3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_UzixuGe3EeewAMxhj9yanQ" visibility="public" type="_UzixtGe3EeewAMxhj9yanQ" association="_Uzixt2e3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzixuWe3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Uzixume3EeewAMxhj9yanQ" memberEnd="_Uzixtme3EeewAMxhj9yanQ _Uzixu2e3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_Uzixu2e3EeewAMxhj9yanQ" visibility="public" type="_UzixtGe3EeewAMxhj9yanQ" association="_Uzixume3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzixvGe3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzixvWe3EeewAMxhj9yanQ" name="Assembly1">
+      <ownedAttribute xmi:id="_Uzixvme3EeewAMxhj9yanQ" name="component1" visibility="public" type="_Uzixx2e3EeewAMxhj9yanQ" aggregation="composite" association="_Uzixv2e3EeewAMxhj9yanQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Uzixv2e3EeewAMxhj9yanQ" memberEnd="_Uzixvme3EeewAMxhj9yanQ _UzixwGe3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_UzixwGe3EeewAMxhj9yanQ" visibility="public" type="_UzixvWe3EeewAMxhj9yanQ" association="_Uzixv2e3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzixwWe3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Uzixwme3EeewAMxhj9yanQ" name="Assembly2">
+      <ownedAttribute xmi:id="_Uzixw2e3EeewAMxhj9yanQ" name="component2" visibility="public" type="_UzixyGe3EeewAMxhj9yanQ" aggregation="composite" association="_UzixxGe3EeewAMxhj9yanQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UzixxGe3EeewAMxhj9yanQ" memberEnd="_Uzixw2e3EeewAMxhj9yanQ _UzixxWe3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_UzixxWe3EeewAMxhj9yanQ" visibility="public" type="_Uzixwme3EeewAMxhj9yanQ" association="_UzixxGe3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uzixxme3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Uzixx2e3EeewAMxhj9yanQ" name="Component1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzixyGe3EeewAMxhj9yanQ" name="Component2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UzixyWe3EeewAMxhj9yanQ" name="Interaction1">
+      <ownedAttribute xmi:id="_Uzixyme3EeewAMxhj9yanQ" name="component1" visibility="public" type="_Uzixx2e3EeewAMxhj9yanQ" association="_UzixzGe3EeewAMxhj9yanQ"/>
+      <ownedAttribute xmi:id="_Uzixy2e3EeewAMxhj9yanQ" name="component2" visibility="public" type="_UzixyGe3EeewAMxhj9yanQ" association="_Uzixz2e3EeewAMxhj9yanQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UzixzGe3EeewAMxhj9yanQ" memberEnd="_Uzixyme3EeewAMxhj9yanQ _UzixzWe3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_UzixzWe3EeewAMxhj9yanQ" visibility="public" type="_UzixyWe3EeewAMxhj9yanQ" association="_UzixzGe3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uzixzme3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Uzixz2e3EeewAMxhj9yanQ" memberEnd="_Uzixy2e3EeewAMxhj9yanQ _Uzix0Ge3EeewAMxhj9yanQ">
+      <ownedEnd xmi:id="_Uzix0Ge3EeewAMxhj9yanQ" visibility="public" type="_UzixyWe3EeewAMxhj9yanQ" association="_Uzixz2e3EeewAMxhj9yanQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uzix0We3EeewAMxhj9yanQ"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:id="_U16wQGe3EeewAMxhj9yanQ">
+      <eAnnotations xmi:id="_U18lcGe3EeewAMxhj9yanQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="sysml.profile.xmi#_U0ksd2e3EeewAMxhj9yanQ"/>
+      </eAnnotations>
+      <appliedProfile href="sysml.profile.xmi#_U0kscGe3EeewAMxhj9yanQ"/>
+    </profileApplication>
+  </uml:Model>
+  <sysml:Block xmi:id="_U1_owGe3EeewAMxhj9yanQ" base_Class="_UzixtGe3EeewAMxhj9yanQ"/>
+  <sysml:Block xmi:id="_U2AP0Ge3EeewAMxhj9yanQ" base_Class="_UzixvWe3EeewAMxhj9yanQ"/>
+  <sysml:Block xmi:id="_U2AP0We3EeewAMxhj9yanQ" base_Class="_Uzixwme3EeewAMxhj9yanQ"/>
+  <sysml:Block xmi:id="_U2AP0me3EeewAMxhj9yanQ" base_Class="_Uzixx2e3EeewAMxhj9yanQ"/>
+  <sysml:Block xmi:id="_U2AP02e3EeewAMxhj9yanQ" base_Class="_UzixyGe3EeewAMxhj9yanQ"/>
+  <sysml:Block xmi:id="_U2A24Ge3EeewAMxhj9yanQ" base_Class="_UzixyWe3EeewAMxhj9yanQ"/>
+</xmi:XMI>

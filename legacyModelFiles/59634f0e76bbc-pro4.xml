@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:sysml="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:version="2.1" xsi:schemaLocation="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0 sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw">
+  <uml:Model xmi:id="_WiWHMDQBEeegr7mwXb5Jtw" name="project1">
+    <eAnnotations xmi:id="_WiWHMTQBEeegr7mwXb5Jtw" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_WiWHMjQBEeegr7mwXb5Jtw" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_WiWHMzQBEeegr7mwXb5Jtw" value="3.0.0"></defaultValue>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw10Jtw" name="testd">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw59tw" name="assembly name" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw153tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw45tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw45tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw59tw _WiWHNzQBEeegr7mwXb5Jtw94tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw94tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw10Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw45tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw137tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw153tw" name="assembly name">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw276tw" name="cddd" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw304tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw219tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw219tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw276tw _WiWHNzQBEeegr7mwXb5Jtw242tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw242tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw153tw" association="_WiWHNjQBEeegr7mwXb5Jtw219tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw284tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw304tw" name="cddd"></packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw13Jtw" name="testdonkey">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw62tw" name="test assembly" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw176tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw25tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw25tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw62tw _WiWHNzQBEeegr7mwXb5Jtw110tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw110tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw13Jtw" association="_WiWHNjQBEeegr7mwXb5Jtw25tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw116tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw176tw" name="test assembly">
+        <ownedAttribute xmi:id="_WiWHTDQBEeegr7mwXb5Jtw273tw" name="check" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw307tw" aggregation="composition" association="_WiWHNjQBEeegr7mwXb5Jtw203tw"></ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WiWHNjQBEeegr7mwXb5Jtw203tw" memberEnd="_WiWHTDQBEeegr7mwXb5Jtw273tw _WiWHNzQBEeegr7mwXb5Jtw255tw">
+        <ownedEnd xmi:id="_WiWHNzQBEeegr7mwXb5Jtw255tw" visibility="public" type="_WiWHNDQBEeegr7mwXb5Jtw176tw" association="_WiWHNjQBEeegr7mwXb5Jtw203tw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHODQBEeegr7mwXb5Jtw284tw"></lowerValue>
+        </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw307tw" name="check"></packagedElement>
+  
+    <profileApplication xmi:id="_Wkli4DQBEeegr7mwXb5Jtw" name="test">
+      <eAnnotations xmi:id="_WknYEDQBEeegr7mwXb5Jtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw"></references>
+      </eAnnotations>
+      <appliedProfile href="sysml.profile.xmi#_WjFHADQBEeegr7mwXb5Jtw"></appliedProfile>
+    </profileApplication>
+  </uml:Model>
+  <sysml:Block xmi:id="_WkrCcDQBEeegr7mwXb5Jtw" base_Class="_WiWHNDQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCcTQBEeegr7mwXb5Jtw" base_Class="_WiWHOTQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCcjQBEeegr7mwXb5Jtw" base_Class="_WiWHRjQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrCczQBEeegr7mwXb5Jtw" base_Class="_WiWHSTQBEeegr7mwXb5Jtw"></sysml:Block>
+  <sysml:Block xmi:id="_WkrpgDQBEeegr7mwXb5Jtw" base_Class="_WiWHSzQBEeegr7mwXb5Jtw"></sysml:Block>
+</xmi:XMI>

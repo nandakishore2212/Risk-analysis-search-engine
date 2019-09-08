@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:sysml="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:version="2.1" xsi:schemaLocation="http:///schemas/sysml/_Wi8kIDQBEeegr7mwXb5Jtw/0 sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw">
+<uml:Model xml:id="_WiWHMDQBEeegr7mwXb5Jtw" name="project1">
+<eAnnotations xmi:id="_WiWHMTQBEeegr7mwXb5Jtw" source="Objing">
+<contents xmi:type="uml:Property" xmi:id="_WiWHMjQBEeegr7mwXb5Jtw" name="exporterVersion">
+<defaultValue xmi:type="uml:LiteralString" xmi:id="_WiWHMzQBEeegr7mwXb5Jtw" value="3.0.0"/>
+</contents>
+</eAnnotations>
+<packagedElement xmi:type="uml:Class" xmi:id="_WiWHNDQBEeegr7mwXb5Jtw" name="test123">
+<ownedAttribute xmi:id="_WiWHNTQBEeegr7mwXb5Jtw" visibility="public" type="_WiWHOTQBEeegr7mwXb5Jtw" aggregation="composite" association="_WiWHNjQBEeegr7mwXb5Jtw" name="assembly123"/>
+</packagedElement>
+
+<packagedElement xmi:type="uml:Association" xmi:id="_WiWHPTQBEeegr7mwXb5Jtw" memberEnd="_WiWHOjQBEeegr7mwXb5Jtw _WiWHPjQBEeegr7mwXb5Jtw">
+<ownedEnd xmi:id="_WiWHPjQBEeegr7mwXb5Jtw" visibility="public" type="_WiWHOTQBEeegr7mwXb5Jtw" association="_WiWHPTQBEeegr7mwXb5Jtw">
+<lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHPzQBEeegr7mwXb5Jtw"/>
+</ownedEnd>
+</packagedElement>
+
+<packagedElement xmi:type="uml:Class" xmi:id="_WiWHOTQBEeegr7mwXb5Jtw" name="assembly123">
+<ownedAttribute xmi:id="_WiWHOjQBEeegr7mwXb5Jtw" name="block2" visibility="public" type="_WiWHRjQBEeegr7mwXb5Jtw" aggregation="composite" association="_WiWHPTQBEeegr7mwXb5Jtw"/>
+<ownedAttribute xmi:id="_WiWHOzQBEeegr7mwXb5Jtw" name="block3" visibility="public" type="_WiWHSTQBEeegr7mwXb5Jtw" aggregation="composite" association="_WiWHQDQBEeegr7mwXb5Jtw"/>
+<ownedAttribute xmi:id="_WiWHPDQBEeegr7mwXb5Jtw" name="block4" visibility="public" type="_WiWHSzQBEeegr7mwXb5Jtw" aggregation="composite" association="_WiWHQzQBEeegr7mwXb5Jtw"/>
+</packagedElement>
+
+<profileApplication xmi:id="_Wkli4DQBEeegr7mwXb5Jtw">
+<eAnnotations xmi:id="_WknYEDQBEeegr7mwXb5Jtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+<references xmi:type="ecore:EPackage" href="sysml.profile.xmi#_WjFHBzQBEeegr7mwXb5Jtw"/>
+</eAnnotations>
+<appliedProfile href="sysml.profile.xmi#_WjFHADQBEeegr7mwXb5Jtw"/>
+</profileApplication>
+<packagedElement name="" xmi:type="uml:Association" xmi:id="_WiWHPTQBEeegr7mwXb5Jtw" memberEnd="_WiWHOjQBEeegr7mwXb5Jtw _WiWHPjQBEeegr7mwXb5Jtw"><ownedEnd xmi:id="_WiWHPjQBEeegr7mwXb5Jtw" visibility="public" type="_WiWHOTQBEeegr7mwXb5Jtw" association="_WiWHPTQBEeegr7mwXb5Jtw"><lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHPzQBEeegr7mwXb5Jtw"/></ownedEnd></packagedElement><packagedElement name="component 123" xmi:type="uml:Association" xmi:id="_WiWHPTQBEeegr7mwXb5Jtw" memberEnd="_WiWHOjQBEeegr7mwXb5Jtw _WiWHPjQBEeegr7mwXb5Jtw"><ownedEnd xmi:id="_WiWHPjQBEeegr7mwXb5Jtw" visibility="public" type="_WiWHOTQBEeegr7mwXb5Jtw" association="_WiWHPTQBEeegr7mwXb5Jtw"><lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WiWHPzQBEeegr7mwXb5Jtw"/></ownedEnd></packagedElement></uml:Model>
+<sysml:Block xmi:id="_WkrCcDQBEeegr7mwXb5Jtw" base_Class="_WiWHNDQBEeegr7mwXb5Jtw"/>
+<sysml:Block xmi:id="_WkrCcTQBEeegr7mwXb5Jtw" base_Class="_WiWHOTQBEeegr7mwXb5Jtw"/>
+<sysml:Block xmi:id="_WkrCcjQBEeegr7mwXb5Jtw" base_Class="_WiWHRjQBEeegr7mwXb5Jtw"/>
+<sysml:Block xmi:id="_WkrCczQBEeegr7mwXb5Jtw" base_Class="_WiWHSTQBEeegr7mwXb5Jtw"/>
+<sysml:Block xmi:id="_WkrpgDQBEeegr7mwXb5Jtw" base_Class="_WiWHSzQBEeegr7mwXb5Jtw"/>
+</xmi:XMI>

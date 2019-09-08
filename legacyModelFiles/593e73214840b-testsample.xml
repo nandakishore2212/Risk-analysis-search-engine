@@ -1,0 +1,42 @@
+<ul>
+<li>
+    <id>system</id>
+    <system>KonzeptB_lang_stp</system>
+    <ul>
+        <li>
+            <id>assembly</id>
+            <assembly>KonzeptB_lang_stpOrigin</assembly>
+        </li>
+        <li>
+            <id>assembly</id>
+            <assembly>BGR_Gestell_Modul_C</assembly>
+            <ul>
+                <li>
+                    <id>component</id>
+                    <component>BGR_Gestell_Modul_COrigin</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Schaltschrank</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Schaltschrank001</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Schraube_M_12x20_DIN_6912.1</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Schraube_M_12x20_DIN_6912.002</component>
+                </li>
+                <li>
+                    <id>component</id>
+                    <component>Flasche_liter.1</component>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</li>
+</ul>
